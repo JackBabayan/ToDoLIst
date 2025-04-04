@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.dark{
+    @apply bg-dark-bg scroll-smooth;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-2xl mx-auto px-4;
+  }
+}
